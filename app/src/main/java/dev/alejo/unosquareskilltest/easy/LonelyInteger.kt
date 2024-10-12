@@ -1,5 +1,9 @@
 package dev.alejo.unosquareskilltest.easy
 
+/*
+Problem description: https://www.hackerrank.com/challenges/lonely-integer/problem
+ */
+
 fun lonelyinteger(a: Array<Int>): Int {
     var result = 0
     for (num in a) {

@@ -1,5 +1,9 @@
 package dev.alejo.unosquareskilltest.easy
 
+/*
+Problem description: https://www.hackerrank.com/challenges/find-the-median/problem
+ */
+
 fun main() {
     val a = readln().trimEnd().split(" ").map{ it.toInt() }.toTypedArray()
     print(getMiddle(a))

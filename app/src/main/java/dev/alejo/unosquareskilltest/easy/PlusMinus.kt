@@ -1,6 +1,8 @@
 package dev.alejo.unosquareskilltest.easy
 
-import android.icu.text.DecimalFormat
+/*
+Problem description: https://www.hackerrank.com/challenges/plus-minus/problem
+ */
 
 object Types {
     const val POSITIVE = 0

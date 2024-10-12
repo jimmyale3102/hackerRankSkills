@@ -1,5 +1,9 @@
 package dev.alejo.unosquareskilltest.easy
 
+/*
+Problem description: https://www.hackerrank.com/challenges/time-conversion/problem
+ */
+
 fun timeConversion(s: String): String {
     val period = s.takeLast(2)
     var hours = s.substring(0, 2).toInt()

@@ -1,5 +1,8 @@
 package dev.alejo.unosquareskilltest.easy
 
+/*
+Problem description: https://www.hackerrank.com/challenges/mini-max-sum/problem
+ */
 fun miniMaxSum(arr: Array<Int>): Unit {
     var minSum: Long = 0
     var maxSum: Long = 0

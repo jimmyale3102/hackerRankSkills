@@ -2,6 +2,10 @@ package dev.alejo.unosquareskilltest.easy
 
 import kotlin.math.abs
 
+/*
+Problem description: https://www.hackerrank.com/challenges/diagonal-difference/problem
+ */
+
 fun diagonalDifference(arr: Array<Array<Int>>): Int {
     var leftDiagonal = 0
     var rightDiagonal = 0
