@@ -1,5 +1,9 @@
 package dev.alejo.unosquareskilltest.easy
 
+/*
+Problem description: https://www.hackerrank.com/challenges/flipping-the-matrix/problem
+ */
+
 fun flippingMatrix(matrix: Array<Array<Int>>): Int {
     val n = matrix.size / 2
     var maxSum = 0
@@ -16,15 +20,6 @@ fun flippingMatrix(matrix: Array<Array<Int>>): Int {
     }
 
     return maxSum
-}
-
-fun printMatrix(matrix: Array<Array<Int>>) {
-    for (i in matrix.indices) {
-        for (j in matrix[i].indices) {
-            print("${matrix[i][j]} ")
-        }
-        println()
-    }
 }
 
 fun main(args: Array<String>) {
